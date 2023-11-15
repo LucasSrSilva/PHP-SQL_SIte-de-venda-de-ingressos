@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(190, 204, 110);
+    height: 100%;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: #000000;
+}
+
+header {
+    background-color: rgba(245, 236, 79, 1);
+    color: #fff;
+    width: 100%;
+    padding-left: -40px;
+}
+
+.conteudo {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.logo {
+    width: 30px;
+    margin-right: 10px;
+    
+}
+.titulo{
+    margin-right: auto;
+    color: black;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.hlink{
+    padding: 20px;
+}
+
+button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    font-size: 15px;
+    border-radius: 15%;
+    border-style: groove;
+    border: 2px solid blue;
+}
+
+
+.h1index{
+    background-color: rgba(255, 255, 255, 0.200);
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 50%;
+
+}
+
+.eventos{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgba(255, 255, 0, 0.5);
+    padding: 10px;
+}
+
+.eventos div{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border: 0cap solid black;
+    border-radius: 10%;
+    
+}
+.eventos img{
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco{
+    background-color: rgba(255, 255, 0, 0.5);
+    border: 0px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+    margin-top: 5%;
+  
+}
+
+.bloco form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.bloco h1{
+    padding: 10px;
+    padding-bottom: 20px;
+}   
+
+.bloco label{
+    padding-bottom: 5px;
+}
+
+.bloco input{
+    text-align: center;
+    background-color:#ffffff80;
+    border: 1px solid black;
+    border-radius: 40%;
+    padding: 5px;
+}
+
+.bloco button{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.sobre a{  
+    color: blue;
+}
+
